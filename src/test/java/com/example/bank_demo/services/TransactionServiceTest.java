@@ -14,7 +14,7 @@ class TransactionServiceTest {
     @Test
     public void test_findAllByAccountNumber() {
         var result = transactionService.findAllByAccountNumber(1);
-        assertEquals(3, result.size());
+        assertEquals(1, result.size());
     }
 
 }
